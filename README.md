@@ -16,11 +16,11 @@ Too right you do! You'll want it near the start, so you can serve up these logos
 
 # Gemfile
 
+gem "ruby_logo"
+
 ```
 
 ```ruby
-
-gem "ruby_logo"
 
 # config/application.rb
 
