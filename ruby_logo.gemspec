@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "ruby_logo"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.authors     = ["Rich Healey"]
   s.email       = ["richo@99designs.com"]
   s.homepage    = "http://github.com/richo/ruby_logo"
