@@ -27,4 +27,6 @@ gem "ruby_logo"
 config.middleware.insert_before ActionDispatch::Static, RubyLogo
 ```
 
-It's worth noting that when the Rails team say [3.2.3 Middleware stack is an array](http://guides.rubyonrails.org/rails_on_rack.html#configuring-middleware-stack) what they mean is that it is kinda like an array. In a very vague sense; so you'll need to jam it in behind something.
+It's worth noting that when the Rails team say [3.2.3 Middleware stack is an array](http://guides.rubyonrails.org/rails_on_rack.html#configuring-middleware-stack) what they mean is that it is kinda like an array. Ish. In a very vague sense; so you'll need to jam it in behind something.
+
+*EDIT* This is fixed in edge rails, the fix will go out in the next major release of Rails.
